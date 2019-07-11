@@ -10,4 +10,4 @@ build_task:
   install_gatsby_script: npm install -g gatsby-cli   
   build_script: yarn run build
   public_artifacts:
-    path: "public/*"
+    path: "public/**"
