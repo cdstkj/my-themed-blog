@@ -5,7 +5,8 @@ build_task:
   node_modules_cache:
     folder: node_modules
     fingerprint_script: cat yarn.lock
-    populate_script: yarn install 
+    populate_script: yarn install
+  install_gatsby_script: npm install -g gatsby-cli   
   build_script: yarn run build
   public_artifacts:
     path: "public/*"
